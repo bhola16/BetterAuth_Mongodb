@@ -30,6 +30,7 @@ const SignUpPage = () => {
 
   return (
     <div>
+      <h2>This is Sign Up... page..</h2>
       <Form
         className="flex w-96 flex-col gap-4"
         render={(props) => <form {...props} data-custom="foo" />}
