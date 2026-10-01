@@ -27,8 +27,7 @@ const SignUpPage = () => {
       password: data.password,
     });
 
-    console.log("Sign Up Response:", resData);
-    console.log("Sign Up Error:", error);
+    console.log("After Sign Up Response:", resData, error);
   };
 
   // Google Login
@@ -38,8 +37,8 @@ const SignUpPage = () => {
       callbackURL: "/",
     });
 
-    console.log("Google Login Response:", data);
-    console.log("Google Login Error:", error);
+    // console.log("Google Login Response:", data);
+    // console.log("Google Login Error:", error);
   };
 
   // GitHub Login
@@ -49,8 +48,8 @@ const SignUpPage = () => {
       callbackURL: "/",
     });
 
-    console.log("GitHub Login Response:", data);
-    console.log("GitHub Login Error:", error);
+    // console.log("GitHub Login Response:", data);
+    // console.log("GitHub Login Error:", error);
   };
 
   return (
